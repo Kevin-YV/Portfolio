@@ -8,19 +8,19 @@ const Hero = () => {
 			id='accueil'
 			className={styles.heroContainer}>
 			<Image
-				src='/Pp.png'
+				src='image/Pp.png'
 				className={styles.profileImg}
 				width={300}
 				height={300}
 				alt='Photo de profil'
 			/>
 			<div className={styles.heroText}>
-				<h1>Bonjour, je m&aposappelle Kevin 👋</h1>
+				<h1>Bonjour, je m&apos;appelle Kevin 👋</h1>
 				<p>
 					Je suis développeur fullstack junior, situé en Ile-De-France. Je suis
 					formé à différents langages de programmation pour la création de sites
-					web et d&aposapplications mobiles. Je suis actuellement à la recherche
-					d&aposune alternance pour février 2024.
+					web et d&apos;applications mobiles. Je suis actuellement à la
+					recherche d&apos;une alternance pour février 2024.
 				</p>
 				<div className={styles.socialIcons}>
 					<a
