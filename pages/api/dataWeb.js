@@ -37,7 +37,7 @@ export const projectData = [
 	},
 	{
 		id: 5,
-		image: '/projets-img/Locate-Me.png',
+		image: '/projets-img/Locate.png',
 		title: 'Locate Me',
 		description:
 			"Application mobile. Scannez le QR-Code avec l'application Expo Go et réperez votre localisation.",
