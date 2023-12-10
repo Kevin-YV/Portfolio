@@ -15,25 +15,27 @@ const AboutMe = () => {
 			<div className={styles.flexAbout}>
 				<div className={styles.text}>
 					<p>
-						En tant que développeur, j'ai toujours été passionné par
-						l'application efficace de solutions logiques à un problème. Je suis
-						particulièrement intéressé par le back-end avec l'utilisation de PHP
-						et C#. Néanmoins, je me forme volontiers au front-end avec un focus
-						sur le HTML, CSS et Javascript. J'apprécie travailler avec les deux
-						pour réaliser mes projets web. Par ailleurs, je suis en constante
-						recherche d'amélioration et d'optimisation lorsqu'il s'agit de
-						performer, dans l'intérêt des utilisateurs et d'améliorer la qualité
-						de mon codage.
+						En tant que développeur, j&aposai toujours été passionné par
+						l&aposapplication efficace de solutions logiques à un problème. Je
+						suis particulièrement intéressé par le back-end avec
+						l&aposutilisation de PHP et C#. Néanmoins, je me forme volontiers au
+						front-end avec un focus sur le HTML, CSS et Javascript.
+						J&aposapprécie travailler avec les deux pour réaliser mes projets
+						web. Par ailleurs, je suis en constante recherche d&aposamélioration
+						et d&aposoptimisation lorsqu&aposil s&aposagit de performer, dans
+						l&aposintérêt des utilisateurs et d&aposaméliorer la qualité de mon
+						codage.
 					</p>
 					<p>
-						Au travers de ma carrière, j'ai pu me rendre compte du réel intérêt
-						que je détiens, aujourd'hui, pour le développement web. D'autant
-						plus, ayant l'habitude de travailler en conduite de projets avec les
-						méthodes Agile et Scrum, j'ai l'expérience nécessaire pour gérer la
-						réalisation d'un projet. J'ai notamment de l'expérience dans
-						l'utilisation de frameworks comme React et Symfony. Par ailleurs,
-						j'ai soif de nouvelles connaissances, ce qui m'amène à toujours
-						chercher à m'ameliorer et faire évoluer mes compétences.
+						Au travers de ma carrière, j&aposai pu me rendre compte du réel
+						intérêt que je détiens, aujourd&aposhui, pour le développement web.
+						D&aposautant plus, ayant l&aposhabitude de travailler en conduite de
+						projets avec les méthodes Agile et Scrum, j&aposai l&aposexpérience
+						nécessaire pour gérer la réalisation d&aposun projet. J&aposai
+						notamment de l&aposexpérience dans l&aposutilisation de frameworks
+						comme React et Symfony. Par ailleurs, j&aposai soif de nouvelles
+						connaissances, ce qui m&aposamène à toujours chercher à
+						m&aposameliorer et faire évoluer mes compétences.
 					</p>
 				</div>
 				<div className={styles.image}>
