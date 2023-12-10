@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #020205;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    padding: 0 2rem;
+  }
+}
+
+.slick-slider {
+  padding-bottom: 10px;
+}
+
+.slick-slider .slick-prev:before, .slick-slider .slick-next:before {
+  color: black;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-list {
+  height: 500px;
+}

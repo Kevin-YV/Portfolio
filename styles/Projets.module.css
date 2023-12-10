@@ -1,0 +1,68 @@
+.projetsContainer {
+  padding: 2rem 0;
+}
+
+.projetsContainer h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #e6e6e6;
+  box-shadow: 0 5px 5px rgba(0,0,0,.35);
+  border-radius: 5px;
+}
+
+.img {
+  border-radius: 5px;
+  object-fit: contain;
+  width: 100%;
+  height: 210px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img:hover {
+ transform: scale(.9);
+}
+
+.textContainer {
+  padding: 20px;
+}
+
+.cards .projetHeader {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  padding-right: 15px;
+}
+
+.cards .icons {
+  display: flex;
+  gap: 0 15px;
+  font-size: 25px;
+}
+
+.cards .icons a {
+  margin-right: 5px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+
+.cards .icons a:hover {
+  color: #FFCC17;
+}
+
+.cards h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.cards p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+

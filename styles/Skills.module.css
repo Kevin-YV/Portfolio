@@ -1,0 +1,87 @@
+.skillscontainer {
+    padding: 2rem 0;
+  }
+  
+  .skillscontainer h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .skillscontainer .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .skillscontainer .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  .skillscontainer .grid .card {
+    background-color: #DADADB;
+    color: #1D1E20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease-in-out;
+    cursor: context-menu;
+  }
+  
+  .skillscontainer .grid i {
+    font-size: 1.5rem;
+  }
+  
+  .skillscontainer .grid .html:hover {
+    background-color: #E34F26;
+  }
+  
+  .skillscontainer .grid .css:hover {
+    background-color: #264DE4;
+  }
+  
+  .skillscontainer .grid .js:hover {
+    background-color: #F7DF1E;
+  }
+
+  .skillscontainer .grid .ts:hover {
+    background-color: #419fe2;
+  }
+  
+  .skillscontainer .grid .react:hover {
+    background-color: #61DAFB;
+  }
+  
+  .skillscontainer .grid .node:hover {
+    background-color: #339933;
+  }
+  
+  .skillscontainer .grid .php:hover {
+    background-color: #9037ab;
+  }
+
+  .skillscontainer .grid .symphony:hover {
+    background-color: #ab378e;
+  }
+
+  .skillscontainer .grid .csharp:hover {
+    background-color: #5437ab;
+  }
+
+  .skillscontainer .grid .unity:hover {
+    background-color: #808080;
+  }
+
+  .skillscontainer .grid .mysql:hover {
+    background-color: #3E8481;
+  }
+
+  .skillscontainer .grid .nosql:hover {
+    background-color: #a03b2c;
+  }

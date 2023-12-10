@@ -1,0 +1,72 @@
+.aboutContainer {
+  padding: 2rem 0;
+}
+
+.aboutContainer h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.aboutContainer .flexAbout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 2rem;
+}
+
+.aboutContainer .flexAbout .text {
+  width: 50%;
+}
+
+.aboutContainer .flexAbout .text p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.aboutContainer .flexAbout .image {
+  position: relative;
+  width: 50%;
+  text-align: center;
+}
+
+.aboutContainer .flexAbout .image::before {
+  content: 'Télécharger';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.aboutContainer .flexAbout .image .picture {
+  overflow: hidden;
+  width: 50%;
+  height: 100%;
+  object-fit: contain;
+  border: 1px solid black;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.aboutContainer .flexAbout .image .picture:hover {
+  transform: scale(1.02);
+}
+
+@media screen and (max-width: 768px) {
+  .aboutContainer .flexAbout {
+    flex-direction: column;
+  }
+
+  .aboutContainer .flexAbout .text {
+    width: 100%;
+  }
+
+  .aboutContainer .flexAbout .image {
+    width: 100%;
+  }
+}

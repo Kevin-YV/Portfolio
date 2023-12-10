@@ -1,0 +1,29 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+  background-color: #1D1E20;
+}
+
+.footerContainer p {
+  font-size: 0.8rem;
+  color: #9B9C9D;
+}
+
+.footerContainer .socialIcons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 1rem;
+}
+
+.footerContainer .socialIcons a {
+  color: #9B9C9D;
+  font-size: 1.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.footerContainer .socialIcons a:hover {
+  color: #DADADB;
+}
