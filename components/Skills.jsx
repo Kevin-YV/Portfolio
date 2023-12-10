@@ -23,7 +23,7 @@ const Skills = () => {
 				</div>
 				<div className={`${styles.card} ${styles.ts}`}>
 					<Image
-						src='/Ts.png'
+						src='/icons/Ts.png'
 						width={25}
 						height={25}
 						alt='iconTs'
