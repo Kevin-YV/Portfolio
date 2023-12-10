@@ -8,7 +8,7 @@ const Hero = () => {
 			id='accueil'
 			className={styles.heroContainer}>
 			<Image
-				src='image/Pp.png'
+				src='/img/Pp.png'
 				className={styles.profileImg}
 				width={300}
 				height={300}

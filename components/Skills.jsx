@@ -48,7 +48,7 @@ const Skills = () => {
 				</div>
 				<div className={`${styles.card} ${styles.csharp}`}>
 					<Image
-						src='icons/Csharp.png'
+						src='/icons/Csharp.png'
 						width={25}
 						height={25}
 						alt='iconC#'
@@ -57,7 +57,7 @@ const Skills = () => {
 				</div>
 				<div className={`${styles.card} ${styles.unity}`}>
 					<Image
-						src='icons/Unity.png'
+						src='/icons/Unity.png'
 						width={25}
 						height={25}
 						alt='iconUnity'
@@ -66,7 +66,7 @@ const Skills = () => {
 				</div>
 				<div className={`${styles.card} ${styles.mysql}`}>
 					<Image
-						src='icons/mysql.png'
+						src='/icons/mysql.png'
 						width={25}
 						height={25}
 						alt='iconMysql'
@@ -75,7 +75,7 @@ const Skills = () => {
 				</div>
 				<div className={`${styles.card} ${styles.nosql}`}>
 					<Image
-						src='icons/nosql.png'
+						src='/icons/nosql.png'
 						width={25}
 						height={25}
 						alt='iconNosql'
